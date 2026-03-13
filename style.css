@@ -143,8 +143,6 @@ section { padding:6rem 2rem; max-width:1140px; margin:0 auto; }
 }
 .kartu-proyek.terbuka::before { left:0; transform:rotate(-2deg) translateX(-100%); animation: robek-left 0.5s forwards; }
 .kartu-proyek.terbuka::after { right:0; transform:rotate(2deg) translateX(100%); animation: robek-right 0.5s forwards; }
-@keyframes robek-left { to { transform:rotate(-2deg) translateX(0); } }
-@keyframes robek-right { to { transform:rotate(2deg) translateX(0); } }
 
 /* KONTAK */
 .kontak-bungkus { text-align:center; margin-top:4rem; }
@@ -167,6 +165,7 @@ footer { text-align:center; padding:2rem; color:var(--text-muted); font-size:0.8
   .grid-proyek{grid-template-columns:1fr;}
 
 }
+
 
 
 
