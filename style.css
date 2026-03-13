@@ -55,6 +55,7 @@ nav {
   font-weight:600; 
   transition:0.2s;
 }
+.tombol-sewa:hover { opacity:0.85; transform:translateY(-2px); }
 
 /* Hamburger */
 .hamburger { display:none; flex-direction:column; gap:4px; margin-left:auto; background:none; border:none; cursor:pointer; }
@@ -165,6 +166,7 @@ footer { text-align:center; padding:2rem; color:var(--text-muted); font-size:0.8
   .grid-proyek{grid-template-columns:1fr;}
 
 }
+
 
 
 
