@@ -93,16 +93,7 @@ section { padding:6rem 2rem; max-width:1140px; margin:0 auto; }
 .label-seksi { font-weight:600; color:var(--accent); margin-bottom:0.5rem; display:inline-block; }
 
 /* KEAHLIAN */
-#keahlian { margin-top:4rem; }
-.grid-keahlian { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; margin-top:1rem; }
-.kartu-keahlian { 
-  background:var(--bg-card); 
-  border:1px solid var(--accent); 
-  padding:1rem; 
-  cursor:pointer;
-  transition:0.3s; 
-  position:relative;
-  overflow:hidden;
+
 }
 .kartu-keahlian:hover { transform:translateY(-4px); box-shadow:0 0 15px var(--accent); }
 .nama-keahlian { font-weight:700; color:var(--accent-alt); margin-bottom:0.3rem; }
@@ -135,6 +126,7 @@ footer { text-align:center; padding:2rem; color:var(--text-muted); font-size:0.8
   .grid-proyek{grid-template-columns:1fr;}
 
 }
+
 
 
 
