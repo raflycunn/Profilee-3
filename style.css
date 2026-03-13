@@ -28,7 +28,22 @@ a { text-decoration:none; color:inherit; }
 /* ========================
    NAVBAR
    ======================== */
-
+nav {
+  position: fixed;
+  top:0; left:0; right:0;
+  height: var(--nav-height);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(12px);
+  display:flex; align-items:center; padding:0 2rem;
+  z-index:100;
+}
+.nav-logo { font-family:'Syne',sans-serif; font-weight:800; font-size:1.3rem; color: var(--accent); }
+.nav-tautan { list-style:none; display:flex; gap:1rem; margin-left:auto; }
+.nav-tautan a { 
+  color: var(--text-muted); 
+  padding:6px 12px; 
+  border-radius:6px; 
+  transition:0.2s; 
 }
 .nav-tautan a:hover { color:var(--text-light); background:var(--bg-card); }
 .tombol-sewa { 
@@ -40,7 +55,6 @@ a { text-decoration:none; color:inherit; }
   font-weight:600; 
   transition:0.2s;
 }
-.tombol-sewa:hover { opacity:0.85; transform:translateY(-2px); }
 
 /* Hamburger */
 .hamburger { display:none; flex-direction:column; gap:4px; margin-left:auto; background:none; border:none; cursor:pointer; }
@@ -151,6 +165,7 @@ footer { text-align:center; padding:2rem; color:var(--text-muted); font-size:0.8
   .grid-proyek{grid-template-columns:1fr;}
 
 }
+
 
 
 
