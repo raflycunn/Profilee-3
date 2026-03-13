@@ -100,7 +100,7 @@ section { padding:6rem 2rem; max-width:1140px; margin:0 auto; }
   border:1px solid var(--accent); 
   border-radius:var(--radius); 
   padding:1rem; 
-  cursor:pointer;
+  cursor:pointer; 
   transition:0.3s; 
   position:relative;
   overflow:hidden;
@@ -145,6 +145,7 @@ section { padding:6rem 2rem; max-width:1140px; margin:0 auto; }
 .kartu-proyek.terbuka::after { right:0; transform:rotate(2deg) translateX(100%); animation: robek-right 0.5s forwards; }
 @keyframes robek-left { to { transform:rotate(-2deg) translateX(0); } }
 @keyframes robek-right { to { transform:rotate(2deg) translateX(0); } }
+
 /* KONTAK */
 .kontak-bungkus { text-align:center; margin-top:4rem; }
 .tautan-media { display:inline-flex; align-items:center; gap:0.5rem; background:var(--bg-card); color:var(--text-muted); padding:0.5rem 1rem; border-radius:8px; margin:0.3rem; transition:0.3s; }
@@ -164,23 +165,4 @@ footer { text-align:center; padding:2rem; color:var(--text-muted); font-size:0.8
   .nav-tautan,.tombol-sewa{display:none;} 
   .hamburger{display:flex;} 
   .grid-proyek{grid-template-columns:1fr;}
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
