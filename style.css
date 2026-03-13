@@ -126,7 +126,6 @@ section { padding:6rem 2rem; max-width:1140px; margin:0 auto; }
   position: relative;
   overflow: hidden;
 }
-.kartu-proyek:hover { transform: translateY(-4px); box-shadow: 0 0 15px var(--accent); }
 .proyek-judul { font-weight:700; color:var(--accent-alt); margin-bottom:0.5rem; }
 .proyek-detail { max-height:0; overflow:hidden; transition: max-height 0.5s ease, transform 0.5s ease; color:var(--text-muted); }
 .kartu-proyek.terbuka .proyek-detail { max-height:200px; transform:rotateX(0deg); }
@@ -166,3 +165,4 @@ footer { text-align:center; padding:2rem; color:var(--text-muted); font-size:0.8
   .hamburger{display:flex;} 
   .grid-proyek{grid-template-columns:1fr;}
 }
+
