@@ -29,13 +29,6 @@ a { text-decoration:none; color:inherit; }
    NAVBAR
    ======================== */
 
-.nav-logo { font-family:'Syne',sans-serif; font-weight:800; font-size:1.3rem; color: var(--accent); }
-.nav-tautan { list-style:none; display:flex; gap:1rem; margin-left:auto; }
-.nav-tautan a { 
-  color: var(--text-muted); 
-  padding:6px 12px; 
-  border-radius:6px; 
-  transition:0.2s; 
 }
 .nav-tautan a:hover { color:var(--text-light); background:var(--bg-card); }
 .tombol-sewa { 
@@ -158,6 +151,7 @@ footer { text-align:center; padding:2rem; color:var(--text-muted); font-size:0.8
   .grid-proyek{grid-template-columns:1fr;}
 
 }
+
 
 
 
