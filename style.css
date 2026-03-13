@@ -114,21 +114,6 @@ section { padding:6rem 2rem; max-width:1140px; margin:0 auto; }
 .kartu-keahlian:hover::after { opacity:0.15; }
 
 /* PROYEK */
-#proyek { margin-top:4rem; }
-.grid-proyek { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:1rem; margin-top:1rem; }
-.kartu-proyek {
-  background: var(--bg-card);
-  border: 1px solid var(--accent);
-  border-radius: var(--radius);
-  padding: 1rem;
-  cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
-  position: relative;
-  overflow: hidden;
-}
-.kartu-proyek:hover { transform: translateY(-4px); box-shadow: 0 0 15px var(--accent); }
-.proyek-judul { font-weight:700; color:var(--accent-alt); margin-bottom:0.5rem; }
-.proyek-detail { max-height:0; overflow:hidden; transition: max-height 0.5s ease, transform 0.5s ease; color:var(--text-muted); }
 
 /* KONTAK */
 .kontak-bungkus { text-align:center; margin-top:4rem; }
@@ -151,6 +136,7 @@ footer { text-align:center; padding:2rem; color:var(--text-muted); font-size:0.8
   .grid-proyek{grid-template-columns:1fr;}
 
 }
+
 
 
 
